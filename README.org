@@ -1,0 +1,20 @@
+* benchmark-ffi-overhead
+
+comparint c-ffi overhead. see also https://github.com/dyu/ffi-overhead
+
+
+| name            | version       |   time |
+|-----------------+---------------+--------|
+| c shared        | gcc 9.3.0     |   1197 |
+| c static        |               |    757 |
+| c direct        |               |    716 |
+| rust shared     | rustc 1.56.0  |   1421 |
+| rust static     |               |   1442 |
+| common lisp     | sbcl 2.0.1    |   5215 |
+| python cython   | cpython 3.9.7 |   1176 |
+| python cffi abi |               | 132300 |
+| python cffi api |               |  83600 |
+| pypy cython     | pypy 7.3.5    |   1204 |
+| pypy cffi abi   |               |   8189 |
+| pypy cffi api   |               |   8295 |
+

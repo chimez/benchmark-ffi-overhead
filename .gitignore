@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+*.fasl
+hello_cffi_api_build_wrap.c 
+hello_cython.c 
+hello
+hello_static
+hello_direct 
+hello_rust
+hello_rust_static 
